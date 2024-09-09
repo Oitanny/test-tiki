@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import Image from 'next/image';
-import AIResponseText from './chatscreen/AIResponseText';
+import AIResponseText from './components/AIResponseText';
 
 const GradientLoadingText = ({ messages }) => {
   const [currentMessage, setCurrentMessage] = useState(0);
